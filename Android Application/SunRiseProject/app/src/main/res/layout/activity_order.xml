@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunrise2"
+    tools:context=".Order">
+
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="220dp"
+        android:layout_height="85dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="Address"
+        android:textColorHint="@color/saved"
+        android:textColor="@color/saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="85dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="name"
+        android:textColorHint="@color/saved"
+        android:textColor="@color/saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <EditText
+        android:id="@+id/panel"
+        android:layout_width="220dp"
+        android:layout_height="85dp"
+        android:textColorHint="@color/saved"
+        android:textColor="@color/saved"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="How many solar Panel"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <EditText
+        android:id="@+id/battery"
+        android:layout_width="220dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:textColorHint="@color/saved"
+        android:textColor="@color/saved"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="how many battery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="198dp"
+        android:layout_height="51dp"
+
+        android:text="Add to Card"
+        android:textColor="@color/saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
